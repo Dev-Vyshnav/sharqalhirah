@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Poultry1 from "../../public/farm/farm/farm_4x.webp";
-import Poultry2 from "../../public/farm/farm/farm_4x.webp"; // You can replace this with a second image
 
 export default function HeroSection() {
   return (
