@@ -2,6 +2,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
+import Head from "next/head";
 
 const dm = DM_Sans({ subsets: ["latin"], weight: ["400", "700"] });
 
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
     description:
       "Certified experts in steel warehouse construction and poultry farm projects with a decade of experience in the UAE and GCC.",
     url: "https://sharqalhirah.com",
-    siteName: "SMTC Dubai",
+    siteName: "Sharq Al Hirah Dubai Sharjah",
     images: [
       {
         url: "https://sharqalhirah.com/og-image.jpg",
@@ -59,6 +60,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <meta
+          property="og:image"
+          content="https://sharqalhirah.com/og-image.jpg"
+        />
+        <meta
+          name="twitter:image"
+          content="https://sharqalhirah.com/og-image.jpg"
+        />
+        <link
+          rel="icon"
+          href="https://sharqalhirah.com/favicon_io/favicon.ico"
+        />
+      </Head>
       <body className={dm.className}>{children}</body>
     </html>
   );
