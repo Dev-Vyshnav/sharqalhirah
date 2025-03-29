@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "poultry equipment installation",
   ],
   authors: [
-    { name: "Shaikh Mohammed Tech Cont", url: "https://sharqalhirah.com" },
+    { name: "Sharq Al Hirah Dubai Sharjah", url: "https://sharqalhirah.com" },
   ],
   creator: "Sharq Al Hirah Dubai Sharjah",
   publisher: "Sharq Al Hirah Dubai Sharjah",
@@ -73,6 +73,20 @@ export default function RootLayout({
           rel="icon"
           href="https://sharqalhirah.com/favicon_io/favicon.ico"
         />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-RC2YGHTET6"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RC2YGHTET6');
+    `,
+          }}
+        ></script>
       </Head>
       <body className={dm.className}>{children}</body>
     </html>

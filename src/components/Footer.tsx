@@ -16,7 +16,7 @@ export default function Footer() {
         />
 
         {/* Company Name */}
-        <h3 className="text-lg font-semibold">SHAIKH MOHAMMED TECH CONT</h3>
+        <h3 className="text-lg font-semibold">Sharq Al Hirah Dubai Sharjah</h3>
 
         {/* Social Links */}
         <div className="flex justify-center gap-6 text-2xl text-gray-700">
