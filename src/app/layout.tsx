@@ -1,8 +1,10 @@
 // src/app/layout.tsx
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/next";
 
 const dm = DM_Sans({ subsets: ["latin"], weight: ["400", "700"] });
 
@@ -73,22 +75,12 @@ export default function RootLayout({
           rel="icon"
           href="https://sharqalhirah.com/favicon_io/favicon.ico"
         />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-RC2YGHTET6"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RC2YGHTET6');
-    `,
-          }}
-        ></script>
       </Head>
-      <body className={dm.className}>{children}</body>
+      <body className={dm.className}>
+        {children}
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID ?? ""} />
+        <Analytics />
+      </body>
     </html>
   );
 }
