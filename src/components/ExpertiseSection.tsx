@@ -2,7 +2,7 @@
 import Image from "next/image";
 import steel from "../../public/roof/roof/roof_4x.webp";
 import farm from "../../public/poulitary (1)/poulitary/poulitary_4x.webp";
-
+import hvac from "../../public/hvac.jpg";
 export default function ExpertiseSection() {
   return (
     <section
@@ -27,23 +27,8 @@ export default function ExpertiseSection() {
         </div>
 
         {/* RIGHT IMAGE SECTION */}
-        <div className="md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
+        <div className="md:w-2/3 grid grid-cols-1 sm:grid-cols-3 gap-3 md:gap-8 ">
           {/* Image 1 */}
-          <div className="text-center space-y-4">
-            <div className="relative w-full h-40 md:h-48 rounded-md overflow-hidden">
-              <Image
-                src={steel}
-                alt="Steel building roof for industrial and commercial use"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <h3 className="text-md font-semibold text-[#191970]">
-              Steel buildings
-            </h3>
-          </div>
-
-          {/* Image 2 */}
           <div className="text-center space-y-4">
             <div className="relative w-full h-40 md:h-48 rounded-md overflow-hidden">
               <Image
@@ -54,7 +39,36 @@ export default function ExpertiseSection() {
               />
             </div>
             <h3 className="text-md font-semibold text-[#191970]">
-              Poultry farm projects
+              Poultry Farm Projects
+            </h3>
+          </div>
+
+          {/* Image 2 */}
+          <div className="text-center space-y-4">
+            <div className="relative w-full h-40 md:h-48 rounded-md overflow-hidden">
+              <Image
+                src={hvac}
+                alt="Steel building roof for industrial and commercial use"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <h3 className="text-md font-semibold text-[#191970]">
+              HVAC Systems
+            </h3>
+          </div>
+           {/* Image 3 */}
+           <div className="text-center space-y-4">
+            <div className="relative w-full h-40 md:h-48 rounded-md overflow-hidden">
+              <Image
+                src={steel}
+                alt="Steel building roof for industrial and commercial use"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <h3 className="text-md font-semibold text-[#191970]">
+              Steel Building Projects
             </h3>
           </div>
         </div>

@@ -15,20 +15,16 @@ export default function HeroSection() {
         {/* LEFT SIDE - TEXT */}
         <div>
           <h1 className="text-3xl md:text-5xl font-bold mb-6">
-            10 years of experience in Steel Warehouse construction and Poultry
-            Farm projects
+          30+ Years of Excellence in Poultry Farm Projects, HVAC Systems & Steel Warehouse Construction.
           </h1>
           <p className="text-sm md:text-base leading-relaxed text-gray-200">
-            Sharq Al Hirah Tech. Cont, established in 2012 in the UAE, is led by
-            Managing Director Mr. Pillai Sethunath, who brings over 10 years of
-            experience in steel warehouse construction and poultry farm
-            projects. The company serves as a certified equipment installation
-            team for LAE Cuxhaven throughout the GCC. Specializing in poultry
-            equipment installation, they have worked with various brands such as
-            Jansen, Techno, Salmet, Big Dutchman, and Chore Time. Sharq Al Hirah
-            has successfully collaborated on numerous steel warehouse projects
-            with companies like Fabtech Steel, SIABCO, EBS, and Kirby,
-            showcasing a diverse range of expertise in their field.
+          Sharq Al Hirah Tech. Cont., established in 2012 in the UAE, is led by Managing Director Mr. Pillai Sethunath, who brings over 30 years of experience in poultry farm projects, HVAC systems, and steel warehouse construction. The company was previously known as Librus General Contracting, founded in 1994, marking the beginning of a long legacy of technical expertise and trusted service in the GCC region.
+
+Sharq Al Hirah is recognized as a certified equipment installation partner for LAE Cuxhaven across the GCC, specializing in advanced poultry equipment installation and turnkey farm solutions. Over the years, the company has collaborated with leading international brands such as Jansen, LAE- CUXHAVEN, Techno, Salmet, Big Dutchman, and Chore Time, delivering precision and reliability in every project.
+
+Expanding its operations, Sharq Al Hirah has successfully executed numerous HVAC projects, offering high-performance climate control and ventilation systems designed for industrial, commercial, and agricultural applications.
+
+In addition, the company has completed a wide range of steel warehouse construction projects in collaboration with industry leaders like Fabtech Steel, SIABCO, EBS, and Kirby, showcasing excellence, innovation, and quality workmanship across all its divisions.
           </p>
         </div>
 

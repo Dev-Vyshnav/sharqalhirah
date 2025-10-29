@@ -39,8 +39,10 @@ export default function ContactSection() {
               Location
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              SHAIKH MOHAMMED TECH CONT <br />
-              Dubai, UAE PO BOX:- 61189
+             
+SHARQ AL HIRAH TECH. CONT.<br />
+Sharjah, uae P.O. Box : 61189
+              
             </p>
           </div>
 
@@ -50,7 +52,7 @@ export default function ContactSection() {
             </h3>
             <p
               className="text-gray-600 cursor-pointer"
-              onClick={() => (window.location.href = "tel:+971504795956")}
+              onClick={() => (window.location.href = "tel:+97165357381")}
             >
               +971 50 479 5956
             </p>
@@ -67,17 +69,11 @@ export default function ContactSection() {
             >
               +971 50 537 8083
             </p>
-            <p
-              className="text-gray-600 cursor-pointer"
-              onClick={() => (window.location.href = "tel:+971503039190")}
-            >
-              +971 50 303 9190
-            </p>
           </div>
         </div>
         <div className="md:w-1/2">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.1182965762696!2d55.44451187615626!3d25.30022927764478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5fa35c722a89%3A0xeb597a9a9a5da67!2sSharq%20Al%20Hirah%20Tech.%20Cont!5e0!3m2!1sen!2sin!4v1743254261977!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.1182965762587!2d55.44451187608404!3d25.30022927764486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5fa35c722a89%3A0xeb597a9a9a5da67!2sSharq%20Al%20Hirah%20Tech.%20Cont!5e0!3m2!1sen!2sin!4v1761767441345!5m2!1sen!2sin"
             width="100%"
             height="300"
             allowFullScreen
