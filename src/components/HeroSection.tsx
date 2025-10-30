@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Poultry1 from "../../public/farm/farm/farm_4x.webp";
+import Poultry1 from "../../public/newbanner.jpg";
 
 export default function HeroSection() {
   return (
@@ -35,7 +35,7 @@ In addition, the company has completed a wide range of steel warehouse construct
             alt="Poultry Farm"
             width={500}
             height={500}
-            className="rounded-sm shadow-lg"
+            className="rounded-sm shadow-lg object-cover"
           />
         </div>
       </div>
