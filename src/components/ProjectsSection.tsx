@@ -19,6 +19,7 @@ import image17 from "../../public/emiratescenter.jpg";
 import image18 from "../../public/wareTrill.jpg";
 import image19 from "../../public/EBS.jpg";
 import image20 from "../../public/ALtURATH.jpg";
+import image21 from "../../public/ahmedal.jpg";
 // Define project data with desicriptions for better user engagement
 
 const Projectsection = () => {
@@ -108,6 +109,12 @@ const Projectsection = () => {
     {
       title: "P04 Arbeto Building Cont (AL Zahya Community",
       image: image15,
+      description:
+        "",
+    },
+    {
+      title: "P05 AHMED AL REFIE BUILDING CONT LLC MUWAILAH G+3TY 1839 plot",
+      image: image21,
       description:
         "",
     },

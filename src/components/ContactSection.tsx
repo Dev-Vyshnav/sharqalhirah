@@ -69,6 +69,12 @@ Sharjah, uae P.O. Box : 61189
             >
               +971 50 537 8083
             </p>
+            <p
+              className="text-gray-600 cursor-pointer"
+              onClick={() => (window.location.href = "tel:+971503920571")}
+            >
+              +971 50 392 0571
+            </p>
           </div>
         </div>
         <div className="md:w-1/2">
