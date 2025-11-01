@@ -9,7 +9,7 @@ import { Analytics } from "@vercel/analytics/next";
 const dm = DM_Sans({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
-  title: "Poultry, HVAC & Steel Warehouse Projects | Sharq Al Hirah Dubai Sharjah",
+  title: "Poultry Farm, HVAC & Steel Warehouse Projects | Sharq Al Hirah Dubai Sharjah",
   description:
     "Sharq Al Hirah Tech. Cont., established in 2012 in the UAE, is led by Managing Director Mr. Pillai Sethunath, who brings over 30 years of experience in poultry farm projects, HVAC systems, and steel warehouse construction. The company was previously known as Librus General Contracting, founded in 1994, marking the beginning of a long legacy of technical expertise and trusted service in the GCC region.Sharq Al Hirah is recognized as a certified equipment installation partner for LAE Cuxhaven across the GCC, specializing in advanced poultry equipment installation and turnkey farm solutions. Over the years, the company has collaborated with leading international brands such as Jansen, LAE- CUXHAVEN, Techno, Salmet, Big Dutchman, and Chore Time, delivering precision and reliability in every project.Expanding its operations, Sharq Al Hirah has successfully executed numerous HVAC projects, offering high-performance climate control and ventilation systems designed for industrial, commercial, and agricultural applications.In addition, the company has completed a wide range of steel warehouse construction projects in collaboration with industry leaders like Fabtech Steel, SIABCO, EBS, and Kirby, showcasing excellence, innovation, and quality workmanship across all its divisions.",
   keywords: [
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     icon: "/favicon_io/favicon.ico",
   },
   openGraph: {
-    title: "Poultry, HVAC & Steel Warehouse Projects | Sharq Al Hirah Dubai Sharjah",
+    title: "Poultry Farm, HVAC & Steel Warehouse Projects | Sharq Al Hirah Dubai Sharjah",
     description:
       "Certified experts in poultry farm,  HVAC and steel warehouse construction projects with a decade of experience in the UAE and GCC.",
     url: "https://sharqalhirah.com",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Poultry, HVAC & Steel Warehouse Projects | Sharq Al Hirah Dubai Sharjah",
+    title: "Poultry Farm, HVAC & Steel Warehouse Projects | Sharq Al Hirah Dubai Sharjah",
     description:
       "Industry-leading  poultry farm,  HVAC and steel warehouse construction projects in the UAE.",
     images: ["https://sharqalhirah.com/og-image.jpg"],
